@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <script>
+
+        // b1 nhập vào mảng Array
+        // b2 nhập vào kí tự a
+        // b3 for duyệt mảng array nếu gặp a thì dempt tăng lên >=1 , ko có a trả về =0
+        // b4 hiển thi 
+
+        var dempt = 0;
+        function messeger(kt, arr) {
+            for (var i = 0; i < arr.length; i++) {
+                if (kt == arr[i]) {
+                    dempt = dempt + 1;
+                }
+            }
+            if (dempt >= 1) {
+                alert("ki tu nhap vao" + b + "xuat hien" + dempt + "lan");
+            } if (dempt = 0) {
+                alert("ki tu khong thuoc mang");
+            }
+        }
+        
+            var a = ["q", "w", "e", "r", "t", "q", "q", "q", "q", "q"];
+
+            var b = prompt("nhap vao ki tu bat ki");
+            messeger(b,a);
+
+
+
+
+
+    </script>
+</head>
+
+</html>
